@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">iCounts</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="label_transactions">Transactions</string>
+    <string name="label_recurrence">Recurrence</string>
+    <string name="label_categories">Categories</string>
+    <string name="label_current_balance">Current Balance</string>
+    <string name="label_credit">Credit</string>
+    <string name="label_debt">Debt</string>
+    <string name="label_income_expenditure">Income and expenditure</string>
+    <string name="label_rents">Rents</string>
+    <string name="label_spending">Spending</string>
+    <string name="label_month_spending">Month Spending</string>
+</resources>

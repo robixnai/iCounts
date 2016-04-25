@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group_menu">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_extract"
+            android:icon="@drawable/ic_menu_extract"
+            android:title="Extract" />
+        <item
+            android:id="@+id/nav_recurrence"
+            android:icon="@drawable/ic_menu_recurrence"
+            android:title="Recurrence" />
+        <item
+            android:id="@+id/nav_graphics"
+            android:icon="@drawable/ic_menu_graphics"
+            android:title="Graphics" />
+        <item
+            android:id="@+id/nav_categories"
+            android:icon="@drawable/ic_menu_categories"
+            android:title="Categories" />
+    </group>
+
+    <group android:id="@+id/group_settings">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_menu_exit"
+            android:title="Disconnect" />
+    </group>
+
+</menu>

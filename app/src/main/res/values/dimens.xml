@@ -1,0 +1,28 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">1dp</dimen>
+    <dimen name="activity_vertical_margin">2dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+
+    <dimen name="detail_backdrop_height">256dp</dimen>
+
+    <dimen name="fab_menu_margin">16dp</dimen>
+    <dimen name="fab_menu_right">10dp</dimen>
+    <dimen name="fab_menu_bottom">10dp</dimen>
+    <dimen name="fab_menu_left">10dp</dimen>
+
+    <dimen name="card_padding_left">10dp</dimen>
+    <dimen name="card_padding_right">10dp</dimen>
+    <dimen name="card_padding_top">8dp</dimen>
+    <dimen name="card_padding_bottom">8dp</dimen>
+    <dimen name="card_relative_progress_width">200dp</dimen>
+    <dimen name="card_progress_height">12dp</dimen>
+    <dimen name="card_progress_margin_top">4dp</dimen>
+    <dimen name="card_relative_text_width">126dp</dimen>
+    <dimen name="card_relative_graphic_height">226dp</dimen>
+    <dimen name="card_progress_width">260dp</dimen>
+
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--Colors ProgressBar Custom-->
+    <color name="custom_progress_background">#f4f4f4</color>
+    <color name="custom_progress_red_progress">#ffff4444</color>
+    <color name="custom_progress_orange_progress">#ffff8800</color>
+    <color name="custom_progress_green_progress">#ff669900</color>
+
+    <color name="fab_menu_color_normal">#FF4081</color>
+    <color name="fab_menu_color_pressed">#FF4081</color>
+    <color name="fab_menu_color_ripple">#FF4081</color>
+    <color name="fab_menu_backgroundColor">#ccffffff</color>
+
+</resources>

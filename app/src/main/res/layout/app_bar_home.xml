@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.robson.icounts.controllers.HomeActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_home" />
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fabMenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="@dimen/fab_menu_right"
+        android:paddingBottom="@dimen/fab_menu_bottom"
+        android:paddingLeft="@dimen/fab_menu_left"
+        fab:menu_labels_ellipsize="end"
+        fab:menu_labels_singleLine="true"
+        fab:menu_colorNormal="@color/fab_menu_color_normal"
+        fab:menu_colorPressed="@color/fab_menu_color_pressed"
+        fab:menu_backgroundColor="@color/fab_menu_backgroundColor">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabTransactions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_fab_transactions"
+            style="@style/AppTheme.FabMiniMenu"
+            fab:fab_label="@string/label_transactions" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabRecurrence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_fab_recurrences"
+            style="@style/AppTheme.FabMiniMenu"
+            fab:fab_label="@string/label_recurrence" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabCategories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_fab_categories"
+            style="@style/AppTheme.FabMiniMenu"
+            fab:fab_label="@string/label_categories" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</android.support.design.widget.CoordinatorLayout>
